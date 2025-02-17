@@ -1,0 +1,12 @@
+Implement a DatabaseConnection class that follows Singleton pattern.
+-- Simulate database connection by printing a message.
+-- Ensure only one connection exist throughout the program.
+
+
+Requirement:
+1. Create a DatabaseConnection class that follow the Singleton pattern.
+2. The class should have a connect() & disconnect() method.
+2. Multiple parts of the program should use the same instance connection.
+3. The connect() method should print a message indicating the connection is established.
+4. The disconnect() method should print a message indicating the connection is closed.
+
