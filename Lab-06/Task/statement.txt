@@ -1,0 +1,4 @@
+Implement singleton using double-checked locking in Java.
+ - Implement a singleton class name DoubleCheckLock
+ - Implement double-checked locking inside the getInstance() method.
+ - Create a main class to test the singleton behavior using multiple threads.
