@@ -1,0 +1,7 @@
+You will create a payment system where the user select a payment method.
+-- Create a PaymentStrategy interface with a method pay(int money)
+-- Concrete strategies: 
+    -- CreditCardPayment -" Paid using Credit Card"
+    -- BkashPayment - "Paid using Bkash"
+    -- CashOnDelivery - "Paid using Cash on Delivery"
+-- Create a contextPayment class that dynamically select a payment method.
